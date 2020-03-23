@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  - var url = title;
+  h3 Agarz keyiniz:
+  code(style='color:black;padding:10px;', key=url id='cod2')  #{title}
+  textarea(id='code' style='position:absolute;left:-400px') #{title}
+  button(onclick='myFunction()', style='padding:5px 10px;') Kopyala
+  script(src="/javascripts/main.js")
