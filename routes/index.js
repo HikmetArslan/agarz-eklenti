@@ -36,7 +36,7 @@ router.get('/:token', function (req, res, next) {
   //   });
   // }
 
-  console.log(keys);
+  // console.log(keys);
   if (token.length == 32) {
     Tokens.findOne({
       token
