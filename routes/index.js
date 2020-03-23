@@ -5,14 +5,8 @@ const Keys = require("../models/Keys")
 const Tokens = require("../models/Tokens")
 
 /* GET home page. */
-router.get('/:token/:key', function (req, res, next) {
-  let {
-    token,
-    key
-  } = req.params;
-
-
-
+router.get('/:token', function (req, res, next) {
+  let token= req.params.token;
 
   if (token.length == 32) {
     Tokens.findOne({
