@@ -59,7 +59,7 @@ router.get('/:token', function (req, res, next) {
                 })
                 newToken.save((err3, data3) => {
                   if (!err3)
-                    console.log("kaydettim");
+                    console.log(data3);
                 });
               } else {
                 res.render("index", {
