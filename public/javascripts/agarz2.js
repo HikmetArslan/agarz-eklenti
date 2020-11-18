@@ -3,7 +3,7 @@
 // @namespace    EDİTED BAY HİKO
 // @version      1
 // @description  AGARZ SPACE MACRO
-// @author       USTA :)
+// @author       USTA :) test
 // @match        https://agarz.com/
 
 // ==/UserScript==
