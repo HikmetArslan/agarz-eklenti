@@ -1,0 +1,31 @@
+body{
+	font: bold 80% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 600px;
+	float: left;
+	border-bottom: 1px solid gray;
+}
+
+ul li {
+	float: left;
+	background: url(https://fatihhayrioglu.com/images/sekme_sag_resim.gif) no-repeat top right;
+}
+
+
+li a {
+	background:url(https://fatihhayrioglu.com/images/sekme_sol_resim.gif) no-repeat left top;
+	display: block;
+	padding: 0 2em;
+	line-height: 2.5em;
+	text-decoration: none;
+	float: left;
+	color:#000;
+}
+
+ul a:hover {
+	color: #9D9C9C;
+}
